@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<title>MENU</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url(ll.gif);
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-text-blue">
+  <div class="w3-display-middle w3-jumbo">
+    
+<br><FONT SIZE="+3" COLOR="yellow"  FACE="Lucida Calligraphy"><p ALIGN="right">BIENVENIDOS</p></FONT></br>
+   <br> <p>DEPORTES CIMN</p></br>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">menu</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">contact</button></p>
+  </div>
+<h3><FONT SIZE="+3" COLOR="pink"  FACE="Lucida Calligraphy">
+  <div class="w3-display-bottomleft w3-container">
+    <p class="w3-xlarge">VENTAS DE TENIS EN LINEA</p>
+    <p class="w3-large">UBICADO EN LA DELEGACION TLAHUAC</p>
+    
+   <p class="w3-large">ELABORADO POR CRISTIAN I. MUÑOZ NOGUERON</p>
+    </h3>
+    </FONT>
+  </div>
+</div>
+
+<!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-BLACK w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>PRODUCTOS</h1>
+    </div>
+    <div class="w3-container">
+
+       <h5><a href="/xampp/htdocs/tabla.php/carrito.html">PRODUCTOS Y CARRITOS</a></b></h5>
+      
+            
+ 
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Contact</h1>
+    </div>
+    <div class="w3-container">
+      <p>Reserve a table, ask for today's special or just send us a message:</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="NOMBRE" required name="NOMBRE"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="CANTIDAD" required name="CANTIDAD"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="DATOS" required name="date" value="2017-11-16T20:00"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="MENSAJE" required name="MeNSAJE"></p>
+        <p><button class="w3-button" type="submit">ENVIAR MENSAJE</button></p>
+
+
+
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
